@@ -14,7 +14,7 @@ body{
     border-radius: 5px;
     width: 400px;
     position: absolute;
-    top: 25%;
+    top: 0%;
     left: 50% ;
     transform: translate(-50%,50%);
 }
@@ -43,8 +43,14 @@ button{
 button:hover{
     background-color: #eaeaea;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .operator{
     color: #337cac;
+}
+.operator:hover{
+    cursor: pointer;
 }
 .clear{
     background-color: #f0595f;
@@ -72,4 +78,7 @@ button:hover{
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;
     padding: 20px;
+}
+.decimal:hover{
+    cursor: pointer;
 }
